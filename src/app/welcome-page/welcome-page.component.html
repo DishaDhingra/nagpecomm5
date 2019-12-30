@@ -263,17 +263,25 @@
                  </a>
               </div>
               <div class="col-md-3 hidden-sm hidden-xs">
+
+             
+
                  <div id="shopping-cart-wrapper" class="dropdown">
-                    <a href="#" class="shp-ca" data-toggle="dropdown">
+                  <a  [routerLink] = "['/checkout']" class="pm_item" data-toggle="dropdown" title="checkout">
+                     <i class="icon-bag"></i>
+                     <span class="hidden-sm hidden-xs">Checkout</span>
+                  </a>
+                    <!-- <a [routerLink] = "['/checkout']" class="shp-ca" data-toggle="dropdown">
                        <div class="s-bag-1">
                           <i class="icon-bag"></i>
-                       </div>
-                       <div class="s-cart-pan">
-                          <div class="s-bag-2">
-                             <span class="dd-products-count">2</span> item(s) / <span class="active dd-products-price">$230.00</span>
-                          </div>
-                       </div>
-                    </a>
+                          <span class="hidden-sm hidden-xs">Checkout</span>
+                       </div> -->
+                       <!-- <div class="s-cart-pan"> -->
+                          <!-- <div class="s-bag-2"> -->
+                             <!-- <span class="dd-products-count">2</span> item(s) / <span class="active dd-products-price">$230.00</span> -->
+                          <!-- </div> -->
+                       <!-- </div> -->
+                    <!-- </a> -->
                     <div class="dropdown-menu dropdown-menu-right larger text-left" role="menu">
                        <span class="dropdown-triangle-up"></span>
                        <a href="#" class="dd-close-btn"><i class="icon_close"></i></a>
